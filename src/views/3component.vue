@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <productpage />
+    <getstarted />
   </div>
 </template>
 
 <script>
-import productpage from "@/components/productpage";
+import getstarted from "@/components/getstarted";
 
 export default {
   components: {
-    productpage
+    getstarted
   }
 };
 </script>
