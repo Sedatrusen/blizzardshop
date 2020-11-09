@@ -115,7 +115,7 @@ div{
     flex-wrap:   wrap;
     margin-left: 10%;
 
-
+color: #ffffffcc;
 
 
 }
@@ -135,6 +135,9 @@ ul{
 li{
   margin:10px;
   font-size: 1rem;
+}
+li:hover{
+  color:white;
 }
 .svg{
   margin-right: 1rem;

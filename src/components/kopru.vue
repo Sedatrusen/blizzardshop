@@ -34,7 +34,7 @@
   <li>
     Gear
   </li>
-  <li>
+  <li class="Group">
     Group by <Select v-model="selection" >
       <Option value="Categories" key="Categories">Categories</Option>
     </Select>
@@ -66,19 +66,26 @@ export default {
   
 }
 ul{
-  color:#FFFFFF;
+  color:#FFFFFFCC;
   margin:auto;
   display: flex;
   list-style-type: none; /* Remove bullets */
     justify-content: space-between;
+   
 }
 ul li{
   font-size: 1.3rem;
   margin: 0.8rem;
-  float: left;
+  font-size: 16px;
 }
-ul li:last-child{
-  flex :2;
+ul li:hover{
+  color: white;
 }
-
+select{
+  color: white;
+  background-color: #001732;
+}
+.Group{
+  margin-left: 20rem;
+}
 </style>
