@@ -83,7 +83,7 @@ display: grid;
 grid-template-columns: 10% 2fr 2fr 2fr 1.5fr 1.5fr  10%;
 grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 background-color: #002650;
-max-height: 500px;
+line-height: 1rem;
 }
 button{
     border: none;
