@@ -26,6 +26,7 @@ margin-left: 3rem;
     
     font-weight: 500;
     line-height: 1.2;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
     
 }
 </style>
