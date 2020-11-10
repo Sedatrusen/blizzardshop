@@ -26,11 +26,28 @@
 
 </button>
 </div>
-<div id="game">
-<button>Games
+<div class="game">
+<button id="game" v-on:click="greet">Games
   <svg _ngcontent-c6="" aria-hidden="true" class="svgkucuk" data-prefix="fa" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
   
-  </button></div>
+  </button>
+  <div class="dropdown-content">
+   Blizzard Game
+
+
+   
+   <router-link to="/" > <img class="simge" src="../assets/menuwow.svg" alt=""> World of Warcraft</router-link>
+   
+   <router-link to="/" > <img class="simge" src="../assets/menuow.svg" alt=""> Overwatch</router-link>
+  
+   
+     </div>
+
+
+
+  
+  
+  </div>
 <div id="service"><button>Services
   <svg _ngcontent-c6="" aria-hidden="true" class="svgkucuk" data-prefix="fa" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
   </button></div>
@@ -142,5 +159,44 @@ input:focus{
   width: 12px;
   height: 12px;
   justify-self:baseline;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1C2433;
+  height: 20rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ padding: left 1rem;
+  
+  font-size: 12px;
+  color: rgba(255,255,255,.8);
+  
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+
+ 
+}
+
+
+/* Show the dropdown menu on hover */
+.game:hover .dropdown-content {
+  display: flex;
+  flex-direction: column ;
+  justify-content: left;
+  align-items: left;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.simge{
+  width: 20px;
+  height: 20px;
+  margin: 0.5rem;
+justify-self: baseline;
 }
 </style>
