@@ -80,7 +80,7 @@
 }
 
 .top {
-  width: 80%;
+  width: 90%;
   margin: auto;
   height: 50px;
   align-items: center;
@@ -114,6 +114,7 @@ a {
 
   flex-grow: 4;
 }
+
 li {
   margin: 5px;
 }

@@ -10,6 +10,6 @@
 import navbar from "@/components/navbar";
 import menus from "@/components/menu";
 export default {
-   components: { navbar, menus, }
+   components: { navbar, menus }
 };
 </script>
